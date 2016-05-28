@@ -1,6 +1,8 @@
 # Helpers
 > Classes and functions for any project
 
+[![Build Status](https://travis-ci.org/jaschweder/helpers.svg?branch=master)](https://travis-ci.org/jaschweder/helpers)
+
 ## Install
 ```
 composer require jaschweder\helpers
