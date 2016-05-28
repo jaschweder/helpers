@@ -25,7 +25,7 @@ class HelpersTest extends PHPUnit_Framework_TestCase
 
     public function testDd()
     {
-      $this->expectOutputString("string(11) \"Lorem Ipsum\"\n");
+        $this->expectOutputRegex('/.*Lorem Ipsum.*/');
         dd('Lorem Ipsum');
     }
 
@@ -36,7 +36,7 @@ class HelpersTest extends PHPUnit_Framework_TestCase
 
     public function testDp()
     {
-        $this->expectOutputString('Lorem Ipsum');
+        $this->expectOutputRegex('/.*Lorem Ipsum.*/');
         dp('Lorem Ipsum');
     }
 }
