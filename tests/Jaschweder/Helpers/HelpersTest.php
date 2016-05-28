@@ -25,7 +25,7 @@ class HelpersTest extends PHPUnit_Framework_TestCase
 
     public function testDd()
     {
-      $this->expectOutputString('string(11) "Lorem Ipsum"' . PHP_EOL);
+      $this->expectOutputString("string(11) \"Lorem Ipsum\"\n");
         dd('Lorem Ipsum');
     }
 
