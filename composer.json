@@ -3,7 +3,7 @@
     "description": "Basic help classes and functions for any application",
     "type": "library",
     "require-dev": {
-        "phpunit/phpunit": "^5.3"
+        "phpunit/phpunit": "~4.1"
     },
     "license": "MIT",
     "authors": [
