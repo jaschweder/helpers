@@ -1,7 +1,7 @@
 # Helpers
 > Classes and functions for any project
 
-[![Build Status](https://travis-ci.org/jaschweder/helpers.svg?branch=master)](https://travis-ci.org/jaschweder/helpers)
+[![Build Status](https://travis-ci.org/jaswdr/helpers.svg?branch=master)](https://travis-ci.org/jaswdr/helpers)
 
 ## Install
 ```
